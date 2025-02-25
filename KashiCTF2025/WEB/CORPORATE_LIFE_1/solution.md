@@ -47,4 +47,6 @@ And this is the key to our solution! Since our objective is to retrieve denied r
 Upon sending the modified request, the server returns a list of denied requests. One of these contains the leaked company secrets, revealing the flag!
 
 
+Have a great day :)
+https://github.com/Irench1k
 

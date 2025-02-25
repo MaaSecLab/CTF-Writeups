@@ -23,3 +23,7 @@ The description hints at *"the end they may give me something real"* meaning we 
 The JPG file ends with `ffd9`, and we notice a sequence of 'a' and 'b'. The flag is encoded using the **Bacon cipher** (and we have a `pasta.jpg` file, you get it??:D)
 
 Once we decode it, the flag reveals itself: `THEYWEREREALLLLYCOOKING`
+
+
+Have a great day :)
+https://github.com/Irench1k

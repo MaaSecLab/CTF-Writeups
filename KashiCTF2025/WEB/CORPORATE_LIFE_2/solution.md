@@ -20,3 +20,7 @@ It reveals that database contains `flags` table. To retrieve the flag, I used th
 ```
 
 Upon executing this query, we successfully retrieve the flag!
+
+
+Have a great day :)
+https://github.com/Irench1k
