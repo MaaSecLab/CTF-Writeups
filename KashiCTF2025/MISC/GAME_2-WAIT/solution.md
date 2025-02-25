@@ -13,3 +13,7 @@ For this challenge we are again given an executable. Running the game we can see
 	time_left=max(0,time_left)`
 
 Modifying the code to decrease the value of time_left and running the application will show us the mostly generated flag. 
+
+
+Have a great day :)
+github.com/johnnnathan
