@@ -16,10 +16,8 @@ The vulnerability lay in how the sort command interpreted filenames passed throu
 
 To exploit this, we uploaded a file named:
 
-diff
-Copy
-Edit
 -eflag.brainrot
+
 When /dict was accessed, the filename -eflag.brainrot was passed as an argument to sort. Since -e is a valid option for sort (in some implementations), it altered how sort processed input, causing the output to include unintended file content.
 
 This worked because xargs and sort were used without safe-guards like --, which is commonly used to signal the end of options. Without this, filenames that begin with dashes can be interpreted as flags, resulting in undefined or exploitable behavior.
