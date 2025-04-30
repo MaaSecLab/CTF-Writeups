@@ -28,8 +28,8 @@ This repository hosts detailed writeups of the challenges our team solved during
 | Rarees404        | REV - PWN                     |
 | codetoby         | WEB                           |
 | JoelDha          | CRYPTO                        |
+| Octavian-Covalciuc | REV - PWN                   |
 | Irench1k         | ---                           |
-| Octavian-Covalciuc | ---                         |
 | mlwauben         | ---                           |
 | EugeniuGh        | ---                           |
 | nathan-vd        | ---                           |
