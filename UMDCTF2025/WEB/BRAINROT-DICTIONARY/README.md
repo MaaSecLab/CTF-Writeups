@@ -6,6 +6,7 @@ The challenge allowed users to upload `.brainrot` files, which were processed an
 
 ```bash
 find <upload_dir> -name "*.brainrot" | xargs sort | uniq
+```
 This meant that all uploaded .brainrot files were collected using find, passed to xargs, and then sorted and deduplicated using sort and uniq. The final result was printed to the /dict page.
 
 The objective was to retrieve the contents of a flag.txt file located on the server, which was not directly accessible.
