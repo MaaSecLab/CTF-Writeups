@@ -17,4 +17,25 @@ This repository hosts detailed writeups of the challenges our team solved during
 - Share techniques and strategies with the wider CTF community.
 - Build a knowledge base to improve for future competitions.
 
+
+## Members
+
+| Username         | Specialization                |
+|------------------|-------------------------------|
+| johnnnathan      | REV - PWN                     |
+| K33w3            | CRYPTO - WEB                  |
+| serbanescumihnea | REV - PWN                     |
+| Rarees404        | REV - PWN                     |
+| codetoby         | WEB                           |
+| JoelDha          | CRYPTO                        |
+| Irench1k         | ---                           |
+| Octavian-Covalciuc | ---                         |
+| mlwauben         | ---                           |
+| EugeniuGh        | ---                           |
+| nathan-vd        | ---                           |
+
+
+
+
+
 Happy hacking! 🎯
