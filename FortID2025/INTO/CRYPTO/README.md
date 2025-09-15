@@ -28,28 +28,28 @@ from math import gcd
 import hashlib, math
 from cryptography.hazmat.primitives import serialization
 
-###load keys
+### load keys
 k1 = serialization.load_pem_public_key(Path("key1.pub").read_bytes())
 k2 = serialization.load_pem_public_key(Path("key2.pub").read_bytes())
 n1, e = k1.public_numbers().n, k1.publicnumbers().e
 n2,  = k2.public_numbers().n, k2.public_numbers().e
 
-###shared prime
+### shared prime
 p = gcd(n1, n2)
 q1, q2 = n1//p, n2//p
 phi1, phi2 = (p-1)(q1-1), (p-1)(q2-1)
 d1 = pow(e, -1, phi1)
 d2 = pow(e, -1, phi2)
 
-###load ciphertexts
+### load ciphertexts
 c1 = int(Path("flag1.enc").read_text().strip(), 16)
 c2 = int(Path("flag2.enc").read_text().strip(), 16)
 
-###RSA decrypt
+### RSA decrypt
 m1 = pow(c1, d1, n1)
 m2 = pow(c2, d2, n2)
 
-###OAEP-SHA256 unpad
+### OAEP-SHA256 unpad
 def mgf1(seed, length, h=hashlib.sha256):
     hlen = h().digest_size
     out = b""
@@ -57,7 +57,7 @@ def mgf1(seed, length, h=hashlib.sha256):
         out += h(seed + i.to_bytes(4,'big')).digest()
     return out[:length]
 
-###def oaep_unpad(em, k=256, h=hashlib.sha256, label=b""):
+def oaep_unpad(em, k=256, h=hashlib.sha256, label=b""):
     em = em.rjust(k, b"\x00")
     hlen = h().digest_size
     assert em[0] == 0
