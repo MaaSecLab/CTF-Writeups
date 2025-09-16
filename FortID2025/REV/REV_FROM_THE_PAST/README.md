@@ -1,6 +1,6 @@
-This is just a template, you don't need to follow it. Feel free to change it as you see fit.
-## Name
-Rev From the Past
+## Rev From the Past 
+
+
 ### Problem Description
 Last year you've enjoyed pwning a binary from the MS-DOS era.
 
