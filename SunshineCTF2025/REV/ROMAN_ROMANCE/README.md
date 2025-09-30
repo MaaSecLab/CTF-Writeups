@@ -7,7 +7,6 @@ When in Rome...
 currently has nonstandard flag format sunshine{}
 
 ### Solution
-# CTF Writeup — Roman Romance (reverse engineering)
 
 
 ## Summary 
