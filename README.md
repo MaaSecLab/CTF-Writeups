@@ -18,24 +18,4 @@ This repository hosts detailed writeups of the challenges our team solved during
 - Build a knowledge base to improve for future competitions.
 
 
-## Members
-
-| Username         | Specialization                |
-|------------------|-------------------------------|
-| johnnnathan      | REV - PWN                     |
-| K33w3            | CRYPTO - WEB                  |
-| serbanescumihnea | REV - PWN                     |
-| Rarees404        | REV - PWN                     |
-| codetoby         | WEB                           |
-| JoelDha          | CRYPTO                        |
-| Octavian-Covalciuc | REV - PWN                   |
-| Irench1k         | ---                           |
-| mlwauben         | ---                           |
-| EugeniuGh        | ---                           |
-| nathan-vd        | ---                           |
-
-
-
-
-
 Happy hacking! 🎯
